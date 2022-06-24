@@ -3,7 +3,7 @@
 
 <img src='./data/thumbnail.png' alt='kaggle' height='500' width='800'>
 
-This dataset contains 1498 bar jokes webscraped from various sources on the internet.
+This dataset contains 1434 bar jokes webscraped from various sources on the internet.
 
 The sources used are listed below.
 
