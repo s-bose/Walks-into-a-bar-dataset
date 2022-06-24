@@ -3,7 +3,7 @@
 
 <img src='./data/thumbnail.png' alt='kaggle' height='500' width='800'>
 
-This dataset contains 1432 bar jokes webscraped from various sources on the internet.
+This dataset contains 1498 bar jokes webscraped from various sources on the internet.
 
 The sources used are listed below.
 
@@ -29,3 +29,8 @@ Please note that the data has been webscrapped with minimal editing of the origi
 Therefore some jokes might be repeated, or might be NSFW. Certain websites had user-provided jokes, which as a result might not conform to the general structure of a walks-into-a-bar joke.
 
 Feel free to contribute to this dataset if you can come across further sources for bar jokes.
+
+
+## Further Links
+
+[<img src='https://www.kaggle.com/static/images/site-logo.svg' alt='kaggle' height='40'>](https://www.kaggle.com/datasets/shiladityabasu/walks-into-a-bar-dataset)
