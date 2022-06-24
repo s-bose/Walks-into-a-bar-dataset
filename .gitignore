@@ -181,6 +181,9 @@ pip-selfcheck.json
 
 ### chromedriver ###
 chromedriver
+*.exe
+
+
 
 ### VirtualEnv ###
 # Virtualenv
