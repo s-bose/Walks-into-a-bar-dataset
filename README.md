@@ -9,13 +9,14 @@ The sources used are listed below.
 
 |   **Name**    | **URL** |
 |:--------------|:-------:|
-| `grammarbook`     | `https://www.grammarbook.com/blog/definitions/walks-into-a-bar/` |
-| `thrillist`       | `https://www.thrillist.com/culture/best-walks-into-a-bar-jokes`  |
-| `jokojokes`       | `https://jokojokes.com/walks-into-a-bar-jokes.html`              |
-| `gamertelligence` | `https://www.gamertelligence.com/walks-into-a-bar-jokes/`        |
+| `grammarbook`     | https://www.grammarbook.com/blog/definitions/walks-into-a-bar/ |
+| `thrillist`       | https://www.thrillist.com/culture/best-walks-into-a-bar-jokes  |
+| `jokojokes`       | https://jokojokes.com/walks-into-a-bar-jokes.html              |
+| `gamertelligence` | https://www.gamertelligence.com/walks-into-a-bar-jokes/        |
 
 
 ## Files
+
 
 * The main dataset can be found in `jokes.csv` under `data/` directory.
 * The primary notebook used for scrapping the aforementioned websites is `notebooks/walks_into_bar_scrapper.ipynb`.
