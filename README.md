@@ -1,5 +1,8 @@
 # Walks Into A Bar Dataset
 
+
+<img src='./data/thumbnail.png' alt='kaggle' height='500' width='800'>
+
 This dataset contains 1432 bar jokes webscraped from various sources on the internet.
 
 The sources used are listed below.
@@ -10,6 +13,14 @@ The sources used are listed below.
 | `thrillist`       | `https://www.thrillist.com/culture/best-walks-into-a-bar-jokes`  |
 | `jokojokes`       | `https://jokojokes.com/walks-into-a-bar-jokes.html`              |
 | `gamertelligence` | `https://www.gamertelligence.com/walks-into-a-bar-jokes/`        |
+
+
+## Files
+
+* The main dataset can be found in `jokes.csv` under `data/` directory.
+* The primary notebook used for scrapping the aforementioned websites is `notebooks/walks_into_bar_scrapper.ipynb`.
+* `notebooks/seleniumconfig.py` is a helper module for obtaining a chrome `WebDriver` with predefined configurations.
+* **Note** - Running the scrapper notebook requires installing all the packages in `requirements.txt`. Additionally, a chromedriver executable suitable for your operating system needs to be present in the root directory.
 
 
 ## Disclaimer

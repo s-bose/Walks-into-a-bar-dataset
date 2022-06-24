@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.webdriver import WebDriver
 load_dotenv()
 
-CHROMEDRIVER_PATH: str = '/home/bose/Projects/barjoke/chromedriver'
+
 
 def get_driver(headless: bool = True) -> WebDriver:
     options = webdriver.ChromeOptions()
@@ -18,9 +18,16 @@ def get_driver(headless: bool = True) -> WebDriver:
     if headless:
         options.add_argument('--headless')
 
-    service: Service = Service(CHROMEDRIVER_PATH)
+    service: Service = Service(os.environ.get('CHROMEDRIVER_PATH'))
 
     driver: WebDriver = webdriver.Chrome(service=service, options=options)
     driver.delete_all_cookies()
 
     return driver
+
+
+if __name__ == "__main__":
+    driver = get_driver()
+    driver.implicitly_wait(1)
+    driver.quit()
+    
