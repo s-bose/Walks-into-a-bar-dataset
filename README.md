@@ -18,7 +18,7 @@ The sources used are listed below.
 ## Files
 
 
-* The main dataset can be found in `jokes.csv` under `data/` directory.
+* The main dataset can be found in `data/jokes.csv`.
 * The primary notebook used for scrapping the aforementioned websites is `notebooks/walks_into_bar_scrapper.ipynb`.
 * `notebooks/seleniumconfig.py` is a helper module for obtaining a chrome `WebDriver` with predefined configurations.
 * **Note** - Running the scrapper notebook requires installing all the packages in `requirements.txt`. Additionally, a chromedriver executable suitable for your operating system needs to be present in the root directory.
